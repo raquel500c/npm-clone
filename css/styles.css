@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+/************* general ********************/
+
+* {
+margin:0;
+padding:0;
+font-family: 'Source Sans Pro', sans-serif;
+box-sizing: border-box;
+}
+
+.clearfix {
+  clear:both;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.link-btn {
+  color: #fff;
+  margin: 40px auto 0;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  border-radius: 24px;
+  font-size:22px;
+}
+
+.anchor {
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.anchor:hover{
+  text-decoration: underline;
+}
+
+.red {
+  background-color: rgb(203, 56, 55);
+}
+
+.blue {
+  background-color: #235A7A;
+}
+/*boton azul rgb(49, 68, 88)*/
+.dark-blue {
+  background-color: rgb(39,53,71);
+}
+
+.light-blue{
+  background-color: #2481B7;
+}
+
+.orange{
+  background-color: rgb(240, 146, 51);
+}
+
+h1{
+  margin-top:10px;
+  font-weight: 400;
+  font-size: 2.2em;
+}
+
+h2{
+  margin-top:10px;
+  font-weight: 300;
+  font-size: 1.8em;
+}
+
+h3{
+  margin-top:10px;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+
+.text {
+  margin: 20px auto 40px;
+  font-size:20px;
+
+}
+
+b {
+font-weight: 600;
+}
+
+/***********  nav-bar    ***************/
+
+.nav-bar {
+  padding: 15px 0;
+  background-color: #C12127;
+  height: 45px;
+  font-size: 16px;
+}
+
+.nav-bar a,
+.login a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.nav-bar .acronym{
+  margin-left: 10px;
+  cursor: pointer;
+  color: rgba(255,255,255,0.8);
+}
+
+.nav-bar a:hover,
+.nav-bar .acronym:hover,
+.login a:hover {
+  color:white;
+}
+
+.top-left {
+  margin-left: 20px;
+  display: inline;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/************   header  ********************************/
+
+.main-header {
+  color: white;
+  padding: 20px;
+  height: 480px;
+}
+
+.header-bar {
+  height: 50px;
+  font-size:18px;
+}
+
+#npm-logo {
+  width: 125px;
+  margin-right: 15px;
+}
+
+#search-bar{
+  display:inline-block;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#search-bar input,
+#search-bar button {
+  background: rgb(31, 82, 111);
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+#search-bar input{
+  width: 95%;
+  font-size:20px;
+  height: 49px;
+}
+
+#search-bar button {
+  position: relative;
+  top: -2px;
+  left: -5px;
+  min-width: 4%;
+  height: 48px;
+  color: rgba(255,255,255,0.8);
+}
+
+.login{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  width: 165px;
+  color: rgba(255,255,255,0.8);
+}
+
+#bear-logo{
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+#container-header img{
+  float:left;
+  width: 40%;
+  margin-left: 50px;
+}
+
+#container-header .data {
+  float:left;
+  display: inline-block;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-left:50px;
+}
+
+#container-header p {
+  width: 600px;
+}
+
+
+/***********   section-> collaboration    ************/
+
+#container-collaboration {
+  color:white;
+  padding: 100px 0;
+}
+
+#collaboration img{
+  display: inline-block;
+  width: 45%;
+  margin: 0 50px;
+}
+
+#collaboration .data{
+  width: 40%;
+  float: rigth;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#collaboration ul {
+  line-height: 2em;
+  list-style-position:inside;
+      width: 600px;
+}
+
+#collaboration .link-btn {
+margin-bottom: 100px;
+}
+
+#collaboration button{
+  margin: 20px;
+}
+
+/********  section---> what-is-npm    **********/
+
+#what-is-npm {
+  position: relative;
+  height: 530px;
+  background-image: url(../images/red-car-city.png);
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#what-is-npm img {
+  float: right;
+}
+
+#what-is-npm .data {
+  width: 375px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  color: white;
+
+}
+#what-is-npm p {
+font-size: 18px;
+}
+/********   section--> what-can-you-make     **********/
+
+#what-can-you-make {
+  padding: 50px;
+  text-align: center;
+  height: 530px;
+}
+
+#what-can-you-make img{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#what-can-you-make .text{
+  color: grey;
+}
+
+#what-can-you-make h2,
+#what-can-you-make b{
+  color: #373D48;
+}
+
+#find a,
+#ember{
+  color: #C12127;
+  text-decoration: none;
+}
+
+#find a:hover {
+  text-decoration: underline;
+}
+
+.col {
+  float: left;
+  padding-bottom: 50px;
+}
+
+.col-3 {
+  width: 30%;
+  padding: 0 20px;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
